@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/dev.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineSkype,
+  AiOutlineMail,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -16,39 +16,36 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              ABOUT <span className="purple"> ME </span> 
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I FEEL THE WORLD! Development is my life.
               <br />
-              <br />I am fluent in classics like
+              <br />I have extensive experience in web and mobile development. <br />
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                With <b className="purple"> +10 years </b> of experience
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              <b className="purple"> Rules </b> I always keep in mind <br />
+              <ul>
+                <li>Providing high-quality solutions that ensure exceptional client satisfaction.</li>
+                <li>Commitment to continuous improvement in an ever-evolving development field.</li>
+                <li>Offering creative solutions and fostering excellent collaboration.</li>
+                <li>Demonstrating flexibility and adaptability.</li>
+              </ul>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
+              Always offer the <b className="purple">BEST</b> solutions...&nbsp;&nbsp;&nbsp;
+              <i>bring your
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Idea
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; to
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> Life</b>
               </i>
             </p>
           </Col>
@@ -60,51 +57,50 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">contact </span> me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  href="https://github.com/"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  href="skype:live:.cid.b41d7ba4e1501ecc?chat"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineSkype />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  href="https://t.me/webmaster179 "
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
                 >
-                  <FaLinkedinIn />
+                  <FaTelegram />
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              <a
+                href="mailto:andriiluzhanskyy@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail />
+              </a>
+            </li>
             </ul>
           </Col>
         </Row>
